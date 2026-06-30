@@ -17,7 +17,7 @@
         "id:8": "minecraft:stick"
       },
       "countAsQuest:1": 1,
-      "desc:8": "Cache me outside.\n\nYour CPU will essentially be how fast your computer processes data.\nA stronger CPU \u003d A faster computer.",
+      "desc:8": "Cache me outside.\n\nYour CPU will essentially be how fast your computer processes data.\nA stronger CPU \u003d A faster computer.\n\n[note]Shift-rightclicking the air with a CPU in your hand will change the CPU architecture, or the \u0027language\u0027 it speaks. By default that is between Lua 5.2 and Lua 5.3, with 5.3 being the default. The differences are minor though, but worth mentioning.[/note]\n\n[note]Also worth noting, there are APUs that are a CPU and a graphics card at once that might be more convenient for later on[/note]",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
