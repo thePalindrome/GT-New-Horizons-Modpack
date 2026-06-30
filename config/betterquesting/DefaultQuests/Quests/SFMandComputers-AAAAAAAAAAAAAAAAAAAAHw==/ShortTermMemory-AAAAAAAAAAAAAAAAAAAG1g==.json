@@ -17,7 +17,7 @@
         "id:8": "minecraft:stick"
       },
       "countAsQuest:1": 1,
-      "desc:8": "Gotta get more RAM.\n\nMemory, or RAM, is essentially a temporary storage of data on your computer that can be rapidly accessed via your programs.\n\nHence the name Rapid Access Memory.",
+      "desc:8": "Unfortunately, you have to craft it rather than downloading it.\n\nRandom Access Memory, or RAM, is essentially a temporary storage of data on your computer that can be rapidly accessed via your programs.\n\nBut what does \"Random\" mean? After all, if you\u0027re reading data, you\u0027d rather it be the same rather than random!\n\nTo explain this, imagine a hallway filled with signs. To read a given sign, you have to walk all the way to that sign and read it. If the next sign you need to read is nearby, you can get there quickly, but if it\u0027s far away it\u0027ll take a long time to complete another read! This is called \"Sequential Access\", and is what\u0027s used for Hard Drives, Magnetic Tape, and Floppy Disks.\n\n\"Random Access\" would be if all of those signs were somehow in front of you at once, so no matter where the next read request is, it takes exactly the same amount of time to read it!\n\n[note]Note: These memory sticks get used in other parts, expect to make at least 6 more after this quest![/note]",
       "globalShare:1": 1,
       "icon:10": {
         "Count:3": 1,
