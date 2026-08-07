@@ -1,0 +1,116 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 7152885921236533871,
+      "questIDLow:4": -8439540856137307081
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "completion_animation:8": "default",
+      "completion_particle:8": "default",
+      "confetti_icon:10": {
+        "Count:3": 0,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:stick"
+      },
+      "countAsQuest:1": 1,
+      "desc:8": "§o\"They harden in response to physical trauma!\" - Senator Armstrong§r\n\nOr in this case, provide a variety of buffs or debuffs. Or just kill you!\n\nTo start with, you\u0027ll need to craft and use the nanomachines item to get them into you. You\u0027ll take some status effects, but only temporarily. From then on you\u0027ll have an extra power bar showing how much is in them. To charge them up, you\u0027ll need the Charger from OpenComptuers (The EIO and GT chargers won\u0027t do the trick, so you\u0027ll have to remember to walk by a charger, or place a charger somewhere you walk by!). Don\u0027t forget to use a wrench on it to set it to max charging by default!\n\nOnce you\u0027re nano-augmented and charged up, now to make them do things. They have a range of §l2 meters§r, so the best way to work with them is via a tablet equipped with a wireless card. Do note that you generally will not know the UUID for the nanomachines you have injected, so you\u0027ll need to rely on the broadcast method on the modem component. It is worth noting that nanomachines listen on every port and from every device (so long as they are within 2 meters), so it might be worth picking a port that won\u0027t be used by most of your other computers!\n\nThe nanomachines consist of a number of inputs that are either true or false. Based on the relation between them, different effects can be triggered, good and bad. In addition, you can only have so many \"safely\" enabled before you start incurring additional effects! They are also randomized when injected, so if you want to reroll, just craft another set and inject them! If you want to take a backup, craft new nanomachines, then call \"saveConfiguration\" on the nanomachines inside you, this will adjust the nanomachines in your inventory to be a copy, which also generates a UUID if you want to make use of them!\n\nIf you\u0027re fed up even thinking about the nanomachines, a nice(?) mug of grog will cause enough damage to them to completely remove them from your system.",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 18,
+        "OreDict:8": "",
+        "id:8": "OpenComputers:item"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "GrogTech: New Horizons",
+      "notification_duration:5": -1.0,
+      "notification_effect:3": -1,
+      "notification_fade_in:5": -1.0,
+      "notification_fade_out:5": -1.0,
+      "notification_icon_offset_y:3": -2147483648,
+      "notification_icon_scale:5": -1.0,
+      "notification_pos_x:3": -2147483648,
+      "notification_pos_y:3": -2147483648,
+      "notification_show_icon:8": "default",
+      "notification_style:8": "default",
+      "notification_subtitle:8": "",
+      "notification_subtitle_scale:5": -1.0,
+      "notification_title:8": "",
+      "notification_title_scale:5": -1.0,
+      "particle_count:3": -1,
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": -6249671477887286613,
+  "questIDLow:4": -5342146677703262488,
+  "rewards:9": {},
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requireOnlyOneItem:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 107,
+          "OreDict:8": "",
+          "id:8": "OpenComputers:item"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "partialMatch:1": 1,
+      "requireOnlyOneItem:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "OpenComputers:charger"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "2:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 2,
+      "partialMatch:1": 1,
+      "requireOnlyOneItem:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 18,
+          "OreDict:8": "",
+          "id:8": "OpenComputers:item"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}
